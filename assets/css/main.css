@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-text: #70434a;
+  --color-subtext: #b18087;
+  --color-border: #efcdcb;
+  --color-cream: #fff1e4;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Kosugi Maru', sans-serif;
+  font-weight: bold;
+}
+
+.news li {
+  @apply my-1 ml-4 list-disc;
+}
+
+.news hr {
+  @apply my-4;
+}
+
+.news img {
+  @apply my-4;
+}

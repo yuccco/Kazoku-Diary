@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --color-text: #70434a;
+  --color-subtext: #b18087;
+  --color-border: #efcdcb;
+  --color-cream: #fff1e4;
+  --vc-pgn-active-color: #b18087;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: bold;
+}
+
+a {
+  @apply transition-all;
+}
+
+.news a {
+  @apply border-b border-brown hover:border-0;
+}
+.news ul li {
+  @apply my-1 ml-4 list-disc;
+}
+.news ol li {
+  @apply my-1 ml-4 list-decimal;
+}
+.news hr {
+  @apply my-4;
+}
+.news img {
+  @apply my-4;
+}
+
+.carousel__pagination-button:after {
+  background: #efcdcb !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 10px !important;
+}
+.carousel__pagination-button:hover::after {
+  background-color: #b18087 !important;
+}
+.carousel__pagination-button--active::after {
+  background-color: #b18087 !important;
+}
+.carousel__pagination-button:after {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 10px !important;
+}
+/*# sourceMappingURL=style.css.map */
