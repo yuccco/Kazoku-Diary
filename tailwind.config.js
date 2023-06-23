@@ -17,7 +17,8 @@ module.exports = {
         brown: 'var(--color-text)',
         brownsub: 'var(--color-subtext)',
         border: 'var(--color-border)',
-        cream: 'var(--color-cream)'
+        cream: 'var(--color-cream)',
+        sand: 'var(--color-sand)'
       },
     },
     accentColor: ({ theme }) => ({

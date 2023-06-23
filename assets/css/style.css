@@ -3,14 +3,15 @@
 @tailwind utilities;
 :root {
   --color-text: #70434a;
-  --color-subtext: #b18087;
+  --color-subtext: #A0604B;
   --color-border: #efcdcb;
-  --color-cream: #fff1e4;
+  --color-cream: #FFF9F0;
+  --color-sand: #E9C590;
   --vc-pgn-active-color: #b18087;
 }
 
 body {
-  background: var(--color-cream);
+  background: url(~/assets/img/bg.png) var(--color-cream);
   color: var(--color-text);
 }
 
@@ -54,10 +55,5 @@ a {
 }
 .carousel__pagination-button--active::after {
   background-color: #b18087 !important;
-}
-.carousel__pagination-button:after {
-  width: 8px !important;
-  height: 8px !important;
-  border-radius: 10px !important;
 }
 /*# sourceMappingURL=style.css.map */

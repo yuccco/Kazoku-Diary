@@ -2,9 +2,8 @@
   <NuxtLayout>
     <div
       ref="pagetop"
-      class="items-center p-6 m-6 border-8 flxed ex-col fiflex border-border rounded-3xl"
+      class="flex-col items-center m-6 flxed"
     >
-      <Header />
       <NuxtPage />
       <Footer />
     </div>
