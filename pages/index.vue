@@ -3,8 +3,8 @@
     <div class="flex flex-col items-center justify-center mt-20 mb-40">
       <h2 class="mb-5 text-4xl text-center">
         家族ダイアリー<br class="md:hidden" /><span class="text-lg"
-          >〜交換日記アプリ〜</span
-        >
+          >〜交換日記アプリ〜
+        </span>
       </h2>
       <h3 class="mb-5 text-brownsub">家族や友人と秘密の交換日記を楽しもう</h3>
       <img src="~/assets/img/appicon.png" alt="" width="300" />
