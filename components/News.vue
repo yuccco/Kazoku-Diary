@@ -7,8 +7,8 @@
       >かいはつ日記</span
     >
   </h2>
-  <div class="flex flex-col px-0 mb-24 md:px-10">
-    <Carousel class="py-6 mb-6 bg-white rounded-[20px]">
+  <div class="flex flex-col px-0 mb-10 md:px-10">
+    <Carousel class="mb-6 border-border rounded-[20px]">
       <Slide v-for="blog in data?.contents" :key="blog.id">
         <div class="">
           <p class="text-lg font-bold">{{ blog.title }}</p>

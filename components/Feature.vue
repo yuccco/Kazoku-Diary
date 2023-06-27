@@ -16,13 +16,13 @@
       >
         <img
           src="~/assets/img/feather_img01.png"
-          alt="さいこうさん"
-          width="230"
+          alt="かんたんでシンプル！"
+          width="300"
         />
       </div>
       <div class="md:w-4/6">
         <h3 class="mb-5 text-2xl font-bold">1.かんたんでシンプル！</h3>
-        <p>
+        <p class="text-brownsub">
           お子様やスマホの操作に慣れていないお年寄りでも書きやすい、シンプルな操作性。気軽に招待して、交換日記をはじめましょう！<br />
           日記は画像追加、テンション選択、みんなへの通知on/offが選択できます。<br />
           シンプルながら、コメントができたり、カレンダーでの日記一覧など必要な機能はしっかり揃っています。
@@ -31,7 +31,7 @@
     </div>
 
     <div
-      class="bg-white rounded-[20px] p-10 flex flex-col justify-center mx-0 md:mx-10"
+      class="bg-white rounded-[20px] p-5 flex flex-col justify-center mx-0 md:mx-10 md:p-10"
     >
       <h4 class="mb-5 text-xl font-bold text-center text-brownsub">
         気分ねこ達の紹介
@@ -45,6 +45,7 @@
               src="~/assets/img/icon_awsome.png"
               alt="さいこうさん"
               width="140"
+              class="hover:animate-wiggle"
             />
           </div>
           <p
@@ -65,6 +66,7 @@
               src="~/assets/img/icon_good.png"
               alt="ごきげんさん"
               width="134"
+              class="hover:animate-wiggle"
             />
           </div>
           <p
@@ -85,6 +87,7 @@
               src="~/assets/img/icon_normal.png"
               alt="まあまあさん"
               width="134"
+              class="hover:animate-wiggle"
             />
           </div>
           <p
@@ -101,7 +104,7 @@
           class="flex flex-col items-center w-1/2 px-2 mb-4 lg:w-auto lg:mb-0"
         >
           <div class="h-[120px] flex items-center">
-            <img src="~/assets/img/icon_bad.png" alt="う〜んさん" width="136" />
+            <img src="~/assets/img/icon_bad.png" alt="う〜んさん" width="136" class="hover:animate-wiggle" />
           </div>
           <p
             class="my-3 border-2 rounded-[20px] border-border px-4 py-1 text-brownsub"
@@ -121,6 +124,7 @@
               src="~/assets/img/icon_worst.png"
               alt="さいあくさん"
               width="160"
+              class="hover:animate-wiggle"
             />
           </div>
           <p
@@ -135,7 +139,7 @@
         <!-- nekotati -->
       </div>
     </div>
-    <hr class="mt-12" />
+    <hr class="mt-12 md:mx-10" />
     <div
       class="flex flex-col my-10 md:items-center md:px-10 md:flex-row md:gap-8"
     >
@@ -143,7 +147,7 @@
         <h3 class="mb-5 text-2xl font-bold">
           2.クラウド保存だから、容量を気にせず書ける！
         </h3>
-        <p>
+        <p class="text-brownsub">
           日記も画像も、容量の制限なくクラウド上に保存されます。<br />
           アプリのデータでスマホをパンパンにすることなく、続けることができます。<br />
           また、データがクラウドにあるので、スマホが故障してもデータがなくなることはありません。<br />
@@ -151,7 +155,7 @@
         </p>
       </div>
       <div
-        class="border-2 flex justify-center mb-5 md:mb-0 bg-cream border-border p-5 rounded-[20px] md:w-2/6"
+        class="border-2 flex justify-center mt-5 mb-0 md:mb-5 md:mb-0 bg-cream border-border p-5 rounded-[20px] md:w-2/6"
       >
         <img
           src="~/assets/img/feather_img01.png"
@@ -160,24 +164,33 @@
         />
       </div>
     </div>
-    <hr class="mt-12" />
+    <hr class="mt-12 md:mx-10" />
     <div
       class="flex flex-col my-10 md:items-center md:px-10 md:flex-row md:gap-8"
     >
       <div
-        class="border-2 flex justify-center mb-5 md:mb-0 bg-cream border-border p-5 rounded-[20px] md:w-2/6"
+        class="flex justify-center p-5 md:mb-0 md:w-5/12"
       >
         <img
-          src="~/assets/img/feather_img01.png"
-          alt="さいこうさん"
-          width="230"
+          src="~/assets/img/feather_img02.png"
+          alt="AIがコメント返信してくれる！"
+          width="354"
         />
       </div>
-      <div class="md:w-4/6">
+      <div class="md:w-7/12">
         <h3 class="mb-5 text-2xl font-bold">3.AIがコメント返信してくれる！</h3>
-        <p>
+        <p class="text-brownsub">
           サブスクリプションに登録すると、にゃボット（ChatGTP）が日記へのコメントをしてくれるようになります！<br />
           みんなで使っていても、ひとりでも楽しく日記が続けられます。
+          <div class="flex items-center justify-center gap-3 mt-5">
+          <img
+          src="~/assets/img/icon_nyabot.png"
+          alt="にゃボット"
+          width="120"
+          class="animate-wiggle"
+        />
+        <p class="px-4 py-2 rounded-[20px] bg-brownsub text-cream text-sm nyabot">一緒におしゃべりしようにゃ〜！</p>
+      </div>
         </p>
       </div>
     </div>
