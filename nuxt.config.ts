@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap',
+          href: 'https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Kosugi+Maru&display=swap',
           crossorigin: ''
         }
       ],

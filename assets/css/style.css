@@ -3,16 +3,17 @@
 @tailwind utilities;
 :root {
   --color-text: #70434a;
-  --color-subtext: #A0604B;
+  --color-subtext: #a0604b;
   --color-border: #efcdcb;
-  --color-cream: #FFF9F0;
-  --color-sand: #E9C590;
+  --color-cream: #fff9f0;
+  --color-sand: #e9c590;
   --vc-pgn-active-color: #b18087;
 }
 
 body {
   background: url(~/assets/img/bg.png) var(--color-cream);
   color: var(--color-text);
+  border-top: 30px solid var(--color-border);
 }
 
 h1,
@@ -24,8 +25,34 @@ h5 {
   font-weight: bold;
 }
 
+p {
+  line-height: 1.6rem;
+}
+
 a {
   @apply transition-all;
+}
+
+hr {
+  height: 3px;
+  border-top: 3px dashed var(--color-border);
+}
+
+.main-bg_01 {
+  top: 90px;
+  left: 10%;
+}
+.main-bg_02 {
+  top: 90px;
+  right: 10%;
+}
+.main-bg_03 {
+  top: 440px;
+  left: 5%;
+}
+.main-bg_04 {
+  top: 400px;
+  right: 8%;
 }
 
 .news a {
